@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView answerView = (TextView) findViewById(R.id.respuesta_view);
 
+        //TODO encuentra el bug y solucionalo
         int val = findAnswer();
         String output = (val == answer) ? "42" : "Puede que nunca la sepamos";
         answerView.setText("La respuesta a la vida, al universo a todo es:\n\n"
